@@ -1,0 +1,144 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper-container1 {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 38px;
+    opacity: 80%;
+}
+
+.line1 {
+    position: relative;
+    top: 25px;
+    left: 135px;
+    width: 150px;
+}
+
+.line2 {
+    position: relative;
+    top: 25px;
+    left: 66%;
+    width: 150px;
+}
+
+.upper-container2 {
+    width: 100px;
+    height: auto;
+    font-size: 25px;
+    position: absolute;
+    left: 640px;
+    top: 100px;
+    opacity: 75%;
+}
+
+
+/* ------ card -------*/
+
+.lower-container {
+    width: 260px;
+    height: 255px;
+    position: absolute;
+    left: 560px;
+    top: 190px;
+    border: 1px solid rgb(216, 132, 132);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 3px lightgray;
+}
+
+.div1 {
+    margin-top: 20px;
+    margin-left: 75px;
+    padding: 10px;
+    font-size: 20px;
+    color: red;
+    opacity: 80%;
+    border-bottom: 1px solid gray;
+}
+
+.div2 {
+    color: red;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: line-through;
+    font-weight: 600;
+    opacity: 80%;
+}
+
+.div3 {
+    position: absolute;
+    left: 50px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+#check {
+    width: 12px;
+    height: 12px;
+}
+
+.fa-fa-circle-plus {
+    position: absolute;
+    top: 85%;
+    right: 10px;
+    opacity: 90%;
+}
+
+.main-container {
+    filter: blur(4px);
+}
+
+
+/* -------Pop-up Style------- */
+
+.pop-up-container {
+    width: 350px;
+    height: 170px;
+    background-color: rgba(255, 254, 254, 0.864);
+    position: absolute;
+    top: 230px;
+    left: 520px;
+    border: 1px solid rgb(245, 108, 108);
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px 3px lightgrey;
+}
+
+.add-list {
+    font-size: 16px;
+    color: rgb(247, 60, 60);
+    text-align: center;
+    position: relative;
+    top: 38px;
+}
+
+#content-text {
+    width: 245px;
+    height: 30px;
+    border: 1px solid rgb(245, 108, 108);
+    border-radius: 4px;
+    position: relative;
+    top: 55px;
+    left: 48px;
+}
+
+.Add-button {
+    font-size: 18px;
+    font-weight: lighter;
+    background-color: #e24848;
+    color: white;
+    width: 75px;
+    height: 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 130px;
+    border: 1px solid rgb(228, 69, 69);
+    border-radius: 20px;
+}
